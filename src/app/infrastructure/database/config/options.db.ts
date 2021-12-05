@@ -1,10 +1,10 @@
 import { mssqlConfiguration } from "../../../../config";
 import mssql from 'mssql'
 export const sqlConfig: mssql.config = {
-    user: mssqlConfiguration.user,
-    password: mssqlConfiguration.password,
-    database: mssqlConfiguration.database,
-    server: mssqlConfiguration.host,
+    user: mssqlConfiguration.USER,
+    password: mssqlConfiguration.PASSWORD,
+    database: mssqlConfiguration.DATABASE,
+    server: mssqlConfiguration.HOST,
     pool: {
         max: 10,
         min: 0,

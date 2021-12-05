@@ -1,10 +1,10 @@
 
 export const mssqlConfiguration = {
-  host: process.env.DB_SQL_HOST || "10.21.2.157",
-  user: process.env.DB_SQL_USER || "CRES_GIFTCARD",
-  password: process.env.DB_SQL_PASSWORD || "CR3S_G1FTC4RD",
-  database: process.env.DB_SQL_DATABASE || "GIFTCARD",
-  port: process.env.DB_SQL_PORT || "1433",
+  HOST: process.env.DB_SQL_HOST || "localhost",
+  USER: process.env.DB_SQL_USER || "sa",
+  PASSWORD: process.env.DB_SQL_PASSWORD || "PasswordO1.",
+  DATABASE: process.env.DB_SQL_DATABASE || "node_api",
+  PORT: process.env.DB_SQL_PORT || "1433",
 };
 
 export const jwtConfig = {
